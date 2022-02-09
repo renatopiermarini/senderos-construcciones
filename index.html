@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senderos</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" id="inicio">
+      <img class="hamburguer" src="img/hamburguesa.svg" alt="" />
+      <nav class="menu-navegacion">
+        <img class="close" src="img/close.svg" alt="" />
+        <a class="texto-menu" href="#inicio">Inicio</a>
+        <a class="texto-menu" href="#expertos">Nuestros servicios</a>
+        <a class="texto-menu" href="#servicio">Beneficios</a>
+        <a class="texto-menu" href="#galeria">Trabajos</a>
+        <a class="texto-menu" href="#nosotros">Nosotros</a>
+        <a class="texto-menu" href="#contacto">Contacto</a>
+      </nav>
+      <div class="contenedor head">
+        <h1 class="titulo">Convertimos tus ideas en realidad</h1>
+        <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+    </header>
+    <main>
+      <section class="gallery our-services" id="expertos">
+        <h2 class="subtitulo our-subtitle">Nuestros servicios</h2>
+        <section class="experts">
+          <div class="cont-expert">
+            <img class="our-services-img" src="img/construction.jfif" alt="" />
+            <h3 class="n-expert">Construccion en madera</h3>
+          </div>
+          <div class="cont-expert">
+            <img class="our-services-img" src="img/furniture.jpg" alt="" />
+            <h3 class="n-expert">Amoblamientos</h3>
+          </div>
+        </section>
+      </section>
+      <section class="services contenedor" id="servicio">
+        <h2 class="subtitulo">¿Por que constuir en madera?</h2>
+        <div class="contenedor-servicio">
+          <img
+            src="https://image.freepik.com/free-vector/house-collection-illustration_23-2148660604.jpg"
+            alt=""
+            class="pila-madera"
+          />
+          <div class="checklist-servicio">
+            <div class="service">
+              <h3 class="n-service">
+                <span class="number">1</span>Mejor aislacion termica
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                autem enim illum dolorum nisi. Aspernatur.
+              </p>
+            </div>
+            <div class="service">
+              <h3 class="n-service">
+                <span class="number">2</span>Estructura mas resistente
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                autem enim illum dolorum nisi. Aspernatur.
+              </p>
+            </div>
+            <div class="service">
+              <h3 class="n-service">
+                <span class="number">3</span>Construccion mas rapida
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                autem enim illum dolorum nisi. Aspernatur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="galeria">
+        <div class="contenedor">
+          <h2 class="subtitulo">Trabajos terminados</h2>
+          <div class="contenedor-galeria">
+            <img src="img/uno.jpg" class="img-galeria" alt="Hola" />
+            <img src="img/dos.jpg" class="img-galeria" alt="" />
+            <img src="img/tres.jpg" class="img-galeria" alt="" />
+            <img src="img/cuatro.jpg" class="img-galeria" alt="" />
+            <img src="img/cinco.jpg" class="img-galeria" alt="" />
+            <img src="img/seis.jpg" class="img-galeria" alt="" />
+          </div>
+        </div>
+      </section>
+      <div class="imagen-light">
+        <img src="img/close.svg" alt="" class="close" />
+        <img src="" alt="" class="agregar-imagen" />
+      </div>
+      <section class="contenedor" id="nosotros">
+        <h2 class="subtitulo">Nosotros</h2>
+        <section class="experts">
+          <div class="cont-expert">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+              iste vitae? Enim dolores, officiis iusto mollitia numquam
+              explicabo iure quibusdam laborum placeat veritatis quaerat illum
+              similique nisi, eos possimus reiciendis corporis, illo saepe
+              sequi! Ab ipsam aperiam repellendus, recusandae corporis
+              laudantium dolorum impedit harum voluptatum sunt beatae quos,
+              saepe consectetur?
+            </p>
+          </div>
+        </section>
+      </section>
+      <section class="gallery contacto" id="contacto">
+        <section class="experts">
+          <div class="cont-expert">
+            <form action="" class="form">
+              <h2 class="subtitulo">Contacto</h2>
+              <input type="text" class="input-contact" placeholder="Nombre" />
+              <input type="text" class="input-contact" placeholder="Telefono" />
+              <input type="email" class="input-contact" placeholder="Email" />
+              <textarea
+                cols="25"
+                rows="10"
+                class="input-contact help"
+                placeholder="¿En que te podemos ayudar?"
+              ></textarea>
+              <button class="btn-send" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="contenedor footer-content">
+        <div class="contact-us">
+          <h2 class="brand">Senderos Construcciones</h2>
+          <p>Somos expertos en la creación de tus sueños</p>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.instagram.com/carpinteriasenderos/?hl=es"
+            class="social-media-icon"
+            target="_blank"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+  </body>
+</html>
