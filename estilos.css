@@ -17,7 +17,7 @@ body {
   max-width: 1200px;
   overflow: hidden;
   margin: auto;
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 .contact {
@@ -154,7 +154,7 @@ body {
 
 .n-service {
   margin-bottom: 7px;
-  color: #a00070;
+  color: #0038a0;
 }
 
 .number {
